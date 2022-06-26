@@ -976,7 +976,7 @@
   dependencies:
     "ms" "^2.1.1"
 
-"debug@^4.0.1", "debug@^4.1.0", "debug@^4.1.1", "debug@^4.3.1", "debug@^4.3.3", "debug@4":
+"debug@^4.0.1", "debug@^4.1.0", "debug@^4.1.1", "debug@^4.3.1", "debug@^4.3.3", "debug@^4.3.4", "debug@4":
   "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   "version" "4.3.4"
@@ -1157,6 +1157,22 @@
     "fs-extra" "^7.0.1"
     "lodash.template" "^4.2.2"
     "temp" "^0.9.0"
+
+"electron-wix-msi@^4.0.0":
+  "integrity" "sha512-LEQr5IQc8w7efIVt5tIQA0efew4slffW6tfDmbfpWDSR74HnfTkkfwBAwj9vMLT4q62cO4NnkVTEuMe7FxWMTw=="
+  "resolved" "https://registry.npmjs.org/electron-wix-msi/-/electron-wix-msi-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "debug" "^4.3.4"
+    "fs-extra" "^10.0.1"
+    "klaw" "^4.0.1"
+    "lodash" "^4.17.21"
+    "rcedit" "^3.0.1"
+    "rcinfo" "^0.1.3"
+    "semver" "^7.3.5"
+    "uuid" "^8.3.2"
+  optionalDependencies:
+    "@bitdisaster/exe-icon-extractor" "^1.0.10"
 
 "electron@19.0.6":
   "integrity" "sha512-S9Yud32nKhB0iWC0lGl2JXz4FQnCiLCnP5Vehm1/CqyeICcQGmgQaZl2HYpCJ2pesKIsYL9nsgmku/10cxm/gg=="
@@ -1401,7 +1417,7 @@
     "combined-stream" "^1.0.6"
     "mime-types" "^2.1.12"
 
-"fs-extra@^10.0.0":
+"fs-extra@^10.0.0", "fs-extra@^10.0.1":
   "integrity" "sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ=="
   "resolved" "https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz"
   "version" "10.1.0"
@@ -2040,6 +2056,11 @@
   dependencies:
     "compress-brotli" "^1.3.8"
     "json-buffer" "3.0.1"
+
+"klaw@^4.0.1":
+  "integrity" "sha512-pgsE40/SvC7st04AHiISNewaIMUbY5V/K8b21ekiPiFoYs/EYSdsGa+FJArB1d441uq4Q8zZyIxvAzkGNlBdRw=="
+  "resolved" "https://registry.npmjs.org/klaw/-/klaw-4.0.1.tgz"
+  "version" "4.0.1"
 
 "load-json-file@^2.0.0":
   "integrity" "sha512-3p6ZOGNbiX4CdvEd1VcE6yi78UrGNpjHO33noGwHCnT/o2fyllJDepsm8+mFFv/DvtwFHht5HIHSyOy5a+ChVQ=="
@@ -2800,6 +2821,11 @@
   dependencies:
     "cross-spawn-windows-exe" "^1.1.0"
 
+"rcinfo@^0.1.3":
+  "integrity" "sha512-c2XV2aYgY7x3BscO+/B/nCTtMvnclZ8w5D7R6zgK4sGOQnE0MjlXhOPynno7yp6Iw1RPNSXBwXwB1svZVRfcSw=="
+  "resolved" "https://registry.npmjs.org/rcinfo/-/rcinfo-0.1.3.tgz"
+  "version" "0.1.3"
+
 "read-pkg-up@^2.0.0":
   "integrity" "sha512-1orxQfbWGUiTn9XsPlChs6rLie/AV9jwZTGmu2NZw/CUDJQchXJFYE0Fq5j7+n558T1JhDWLdhyd1Zj+wLY//w=="
   "resolved" "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-2.0.0.tgz"
@@ -3452,6 +3478,11 @@
   "integrity" "sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A=="
   "resolved" "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
   "version" "3.4.0"
+
+"uuid@^8.3.2":
+  "integrity" "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
+  "resolved" "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+  "version" "8.3.2"
 
 "validate-npm-package-license@^3.0.1":
   "integrity" "sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew=="
