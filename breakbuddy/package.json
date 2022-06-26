@@ -45,6 +45,7 @@
     }
   },
   "dependencies": {
+    "electron-packager": "^15.5.1",
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
