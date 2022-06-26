@@ -7,7 +7,7 @@ const path = require('path');
 // 2. Define input and output directory.
 // Important: the directories must be absolute, not relative e.g
 // appDirectory: "C:\\Users\sdkca\Desktop\OurCodeWorld-win32-x64",
-const APP_DIR = path.resolve(__dirname, './OurCodeWorld-win32-x64');
+const APP_DIR = path.resolve(__dirname, './breakbuddy-win32-x64');
 // outputDirectory: "C:\\Users\sdkca\Desktop\windows_installer",
 const OUT_DIR = path.resolve(__dirname, './windows_installer');
 
@@ -18,10 +18,11 @@ const msiCreator = new MSICreator({
 
     // Configure metadata
     description: 'This is a demo application',
-    exe: 'OurCodeWorld',
+    exe: 'breakbuddy',
     name: 'Our Code World Desktop App',
     manufacturer: 'Our Code World Inc',
     version: '1.0.0',
+    appIconPath: path.resolve(__dirname,'./logo.ico'),
 
     // Configure installer User Interface
     ui: {
